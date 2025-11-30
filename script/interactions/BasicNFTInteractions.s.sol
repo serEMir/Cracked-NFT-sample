@@ -6,7 +6,8 @@ import {BasicNFT} from "../../src/BasicNFT.sol";
 import {DevOpsTools} from "lib/foundry-devops/src/DevOpsTools.sol";
 
 contract MintBasicNFT is Script {
-    string public constant PUG = "ipfs://bafybeig37ioir76s7mg5oobetncojcm3c3hxasyd4rvid4jqhy4gkaheg4/?filename=0-PUG.json";
+    string public constant PUG =
+        "ipfs://bafybeig37ioir76s7mg5oobetncojcm3c3hxasyd4rvid4jqhy4gkaheg4/?filename=0-PUG.json";
     string public constant BALTO = "ipfs://QmX6UUQJSjoWjjtbWY19VBphfA7TiDQUZy36uwDq6Nio9J/?filename=Balto.json";
 
     function run() external {
