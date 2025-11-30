@@ -1,0 +1,21 @@
+{
+    "name": "Balto",
+    "description": "A heroic sled dog who led his team through a blizzard to deliver life-saving medicine to Nome, Alaska, in 1925.",
+    "image": "https://ipfs.io/ipfs/QmX8AsLLuYUXHrD5NESZx5DhpJPJKnQKWcp5KfqX4Xc8ZC?filename=Balto.png",
+    "attributes": [
+        {
+            "trait_type": "Species",
+            "value": "Dog"
+        },
+
+        {
+            "trait_type": "Breed",
+            "value": "Siberian Husky"
+        },
+
+        {
+            "trait_type": "Role",
+            "value": "Heroic Sled Dog"
+        }
+    ]
+}

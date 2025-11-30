@@ -1,0 +1,12 @@
+[profile.default]
+src = "src"
+out = "out"
+libs = ["lib"]
+remappings = ['@openzeppelin/contracts=lib/openzeppelin-contracts/contracts'] #'lib/forge-std/=lib/foundry-devops/lib/forge-std/']
+
+allow_paths = ["/root/foundry/foundry-nft/broadcast"]
+fs_permissions = [
+    { access = "read-write", path = "./" },
+    { access="read", path="./img/" }
+]
+# See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options
